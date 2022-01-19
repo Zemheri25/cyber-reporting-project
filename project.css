@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    
+    width: 90%;
+    height: 110rem;
+    margin:2rem auto;
+    background-color: #F4F5F9;
+}
+
+.navbarmain {
+    
+    height: 4rem;
+}
+
+.logo {
+    background-color: #404E67;
+    height: 4rem;
+    float: left;
+    width: 21%;
+    box-shadow: 1px 1px 15px #ffffff;
+    
+    
+}
+
+.menu {
+    background-color: white;
+    height: 4rem;
+    
+    
+
+}
+
+.cyber-heading {
+    font-family: "Open Sans", sans-serif;
+    color: gainsboro;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    
+    width: 85%;
+}
+
+.asidebarmain {
+    background-color: pink;
+    width: 21%;
+    height: 96rem;
+    background-color: #404E67;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(211, 207, 207);
+    float: left;
+    
+}
+
+.asidebarmain li {
+    list-style: none;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.asidebarmain li a {
+    text-decoration: none;
+    color: rgb(211, 207, 207);
+    border-bottom: 1px rgb(204, 199, 199) solid;
+
+}
+
+.asidebarmain li a:hover {
+    color: white;
+    font-size: large;
+}
+
+.search1 {
+    width: 30%;
+    height: 4rem;
+    border-radius: 10px;
+    border:1px rgb(226, 225, 225) solid;
+    margin-left: 1rem;
+    
+    float: left;
+}
+
+.search1::placeholder {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #e6e8ee;
+    font-weight:400;
+}
+
+#searchlogo {
+    margin-left: 10px;
+    margin-top: 24px;
+    color: rgb(170, 164, 164);
+    width: 30px;
+    height: 20px;
+}
+
+body {
+    background-image: url(backgorundimage.jpg);
+}
+
+.usermain {
+    
+    width: 25%;
+    float: right;
+    margin-top: 0px;
+    height: 4rem;
+}
+
+#notifications {
+    margin-top: 24px;
+    margin-right: 30px;
+    margin-left: 60px;
+}
+
+.user1 {
+    
+    width: 60%;
+    float: right;
+    height: 4rem;
+    
+}
+
+.user1 p {
+    float: right;
+    margin-top: 23px;
+    margin-right: 50px;
+}
+
+.main1 {
+    background-color: red;
+    height: 400px;
+    width: 20%;
+    height: 10rem;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.asidebarmain h2 {
+    color: gray;
+    font-size: large;
+    margin-top: 3rem;
+}
+
